@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import io
 import base64
 
-df = pd.read_csv('./treesfork/assignment/data/cars_hw.csv')
+df = pd.read_csv('cars_hw.csv')
 
 app = dash.Dash()
 app.layout = html.Div([
